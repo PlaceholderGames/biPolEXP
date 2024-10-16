@@ -1,0 +1,19 @@
+name: File a Feature Issue
+description: File a feature report
+title: "[Feature]: <title and short description>"
+labels: ["feature"]
+projects: ["PlaceholderGames/21"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the feature report and enter what feature you will be adding to the game, how you will add it and what conditions are needed for the feature issue to be closed.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Conditions for feature issue to be closed
+      description: Please enter the conditions for the issue to be closed so that a realistic aim can be set on resolving this issue.
+    validations:
+      required: true

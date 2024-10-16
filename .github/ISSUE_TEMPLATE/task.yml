@@ -1,0 +1,19 @@
+name: File a Task Issue
+description: File a Task report
+title: "[Task]: <title and short description>"
+labels: ["task"]
+projects: ["PlaceholderGames/21"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the task issue report and enter what task you wish to be completed on the work already done to the game and what conditions are needed for the feature issue to be closed.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Conditions for task issue to be closed
+      description: Please enter the conditions for the issue to be closed so that a realistic aim can be set on resolving this issue.
+    validations:
+      required: true
