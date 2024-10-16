@@ -8,3 +8,6 @@ BUILD/
 TOOLS/MesenX/Debugger
 TOOLS/MesenX/RecentGames
 TOOLS/MesenX/SaveStates
+
+#Debug files
+runtime/

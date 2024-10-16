@@ -492,7 +492,7 @@ void movement(void){
         if(bg_coll_D2() ) {
 			BoxGuy1.vel_y = JUMP_VEL; // JUMP
 			sfx_play(SFX_JUMP, 0);
-			short_jump_count = 1;
+			//short_jump_count = 1;
 		}
 		
 	}
