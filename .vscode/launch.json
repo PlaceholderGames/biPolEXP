@@ -12,7 +12,7 @@
             "dbgPath": "${workspaceFolder}/BUILD/biPolEXP.dbg",
             "program": "${workspaceFolder}/TOOLS/MesenX/mesen.exe",
             //"program": "${workspaceFolder}/TOOLS/Mesen2/mesen2.exe",
-            "sourcePath": "${workspaceFolder}/biPolEXP.c",
+            "sourcePath": "${workspaceFolder}/",
             "stopOnEntry": false,
             "resetOnEntry": true
         }

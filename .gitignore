@@ -3,3 +3,8 @@
 
 # BUILD Files
 BUILD/
+
+# MesenX temp folders
+TOOLS/MesenX/Debugger
+TOOLS/MesenX/RecentGames
+TOOLS/MesenX/SaveStates
