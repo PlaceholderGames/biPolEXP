@@ -1,6 +1,6 @@
 @echo off
 
-set name="biPOlEXP"
+set name="biPolEXP"
 
 set path=%path%;..\bin\
 

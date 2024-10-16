@@ -13,10 +13,6 @@ FT_NTSC_SUPPORT	= 1		;undefine to exclude NTSC support
 FT_DPCM_ENABLE  = 0		;undefine to exclude all DMC code
 FT_SFX_ENABLE   = 1		;undefine to exclude all sound effects code
 
-
-
-
-
 ;REMOVED initlib
 ;this called the CONDES function
 
@@ -257,23 +253,23 @@ detectNTSC:
 	.include "MUSIC/famitone2.s"
 	
 	
+	
 .segment "RODATA"
 
 music_data:
-;	.include "music.s"
+	.include "MUSIC/TestMusic3.s"
 
 
 
 	.if(FT_SFX_ENABLE)
 sounds_data:
-;	.include "sounds.s"
+	.include "MUSIC/SoundFx.s"
 	.endif
 
 	
 	
 .segment "SAMPLES"
 ;	.incbin "music_dpcm.bin"
-
 
 
 .segment "VECTORS"
@@ -285,4 +281,4 @@ sounds_data:
 
 .segment "CHARS"
 
-	.incbin "Alpha.chr"
+	.incbin "biPolEXP.chr"
