@@ -10,8 +10,8 @@
             "name": "Debug rom with mesen",
             "romPath": "${workspaceFolder}/BUILD/biPolEXP.nes",
             "dbgPath": "${workspaceFolder}/BUILD/biPolEXP.dbg",
-            "program": "${workspaceFolder}/TOOLS/MesenX/mesen.exe",
-            //"program": "${workspaceFolder}/TOOLS/Mesen2/mesen2.exe",
+            //"program": "${workspaceFolder}/TOOLS/MesenX/mesen.exe",
+            "program": "${workspaceFolder}/TOOLS/Mesen2/mesen.exe",
             "sourcePath": "${workspaceFolder}/",
             "stopOnEntry": false,
             "resetOnEntry": true

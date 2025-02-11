@@ -2,7 +2,7 @@
 
 set name="biPolEXP"
 
-set path=%path%;..\bin\
+set path=%path%;.\TOOLS\cc65\bin\
 
 set CC65_HOME=TOOLS\
 
